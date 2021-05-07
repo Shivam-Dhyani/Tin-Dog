@@ -16,6 +16,6 @@ This website has all new generation features that a product seeling website must
 
 3. **Clean & Simple Pricing Section**
 
-![image](https://user-images.githubusercontent.com/69079491/117402335-cf34eb00-af23-11eb-9648-8751212496f9.png)
+![image](https://user-images.githubusercontent.com/69079491/117402675-76b21d80-af24-11eb-880f-239b30fdf367.png)
 
 **Link to TinDog Website** -> [TinDog](https://shivam-dhyani.github.io/Tin-Dog/)
