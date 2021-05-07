@@ -1,0 +1,196 @@
+html{
+  /* To provode smooth scrolling transition to the buttons in the navbar */
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Grandstander', cursive;
+  text-align: center;
+}
+
+/* Header Section */
+
+h1, h2, h3{
+  font-family: 'Grandstander', cursive;
+}
+
+/* Paragraph Section */
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+
+.big-heading{
+  /* font-weight: bold; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;  /* text-color */
+}
+
+.white-section{
+  background-color: #fff;   /*  hex-code -> #fff means white color
+                    & hex-code -> #000 means black color */
+}
+
+/* Navigation Bar Section */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Grandstander';
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+/* The below satement will change the property of container-fluid
+   div which is inside the title ID. It is Hierarchical */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10%;
+}
+
+@media (max-width: 992px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 10%;
+  position: relative;
+}
+
+.feature-title{
+  font-weight: bolder;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover
+
+/* a pseudo class to implement hower state to the icon <div> */
+  {
+  color: #ff4c68;  /* Text color */
+  margin: 2rem;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  background-color: #ef8172;  // Here this color will be appiled as Ids have more priority
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* Call To Action Section */
+
+.cta-heading{ /* craeted a new class of <h3> tag because <h3> tag
+                   has already been assigned some other values */
+  font-family: 'Grandstander', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+.social-icon{
+  margin: 20px 10px;
+}
