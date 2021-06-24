@@ -1,5 +1,7 @@
 # Tin-Dog
 
+**Link to TinDog Website** -> [TinDog](https://shivam-dhyani.github.io/Tin-Dog/)
+
 This webiste is a Tinder Site for Dogs 👇
 
 ![image](https://user-images.githubusercontent.com/69079491/117401526-5f723080-af22-11eb-8146-bdeba0d99b50.png)
@@ -18,4 +20,4 @@ This website has all new generation features that a product seeling website must
 
 ![image](https://user-images.githubusercontent.com/69079491/117402675-76b21d80-af24-11eb-880f-239b30fdf367.png)
 
-**Link to TinDog Website** -> [TinDog](https://shivam-dhyani.github.io/Tin-Dog/)
+
